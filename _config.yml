@@ -1,3 +1,25 @@
-theme: minima
 title: "Asad Rana"
-description: "Cloud Data Engineer | Building scalable data platforms in the cloud."
+description: "Cloud Data Engineer — building reliable, automated, and scalable data systems in the cloud."
+theme: minima
+
+# Show nav links in the header (Minima supports this)
+header_pages:
+  - projects/index.md
+  - about.md
+
+# Jekyll collection for projects
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Minima config
+minima:
+  social_links:
+    - { platform: github, user_url: "https://github.com/asads-cloud" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/asad-rana-9b01161b9/" }
+
+# enable kramdown / markdown extras
+markdown: kramdown
+kramdown:
+  input: GFM
