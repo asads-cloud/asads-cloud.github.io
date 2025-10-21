@@ -1,0 +1,17 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Subtle tweaks */
+body {
+  line-height: 1.6;
+}
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Optional: faint card feel for project pages */
+.page-content {
+  max-width: 860px;
+  margin: 0 auto;
+}
